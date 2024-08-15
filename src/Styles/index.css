@@ -1,0 +1,48 @@
+.container-form{
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    border: solid 1px;
+    padding: 20px 30px;
+    border-radius: 20px;
+}
+
+.container-form form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container-form form input{
+    height: 30px;
+    border-radius: 5px;
+    border-color: gray;
+    padding: 2px 10px;
+}
+
+.container-form button{
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 0;
+}
+
+#mensaje-error{
+    color: red;
+    font-size: small;
+}
+
+.container-bandera{
+    width: 500px;
+    height: 500px;
+    color:darkgrey;
+    margin: 20px;
+    border: solid 1px;
+    padding: 20px 30px;
+    border-radius: 20px;
+}
+
+.container-bandera img{
+    height: 300px;
+}
